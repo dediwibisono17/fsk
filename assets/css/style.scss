@@ -9,6 +9,13 @@
     border-radius: 8px;
     box-shadow:  rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
     z-index: 1009;
+    @media screen and (max-width:766px) {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background: #dbdbdb;
+        bottom: 0;
+    }
     .image {
         width: 36px;
         height: 36px;
@@ -16,6 +23,12 @@
         margin: 0 auto 8px;
         position: relative;
         z-index: 1100;
+        @media screen and (max-width:766px) {
+            margin: 0 8px;
+            // position: relative;
+            // z-index: 1100;
+            display: inline-block;
+        }
         &:hover {
             opacity: .7;
         }
