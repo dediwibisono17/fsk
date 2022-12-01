@@ -41,8 +41,42 @@
     }
 }
 
+.wa-button-toggle {
+    width: fit-content;
+    // margin: 0 auto 8px;
+    display: inline-block;
+    margin: 8px;
+    height: 42px;
+    background: #25d366;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    // position: fixed;
+    // right: 58px;
+    bottom: 8px;
+    // z-index: 999;
+    a {
+        color: #fff;
+        
+    }
+    i {
+        color: #fff;
+        vertical-align: middle;
+        margin-right: 4px;
+        font-size: 24px;
+    }
+}
+
+.wa {
+    .modal-content {
+    //  background: url(../image/icon/batik.png);   // background: rgba($color: white, $alpha: .8);
+    background: linear-gradient(to bottom, white, #eeeeee);
+    }
+}
+
 .wa-button {
     width: 42px;
+    cursor: pointer;
     height: 42px;
     background: #25d366;
     border-radius: 50%;
