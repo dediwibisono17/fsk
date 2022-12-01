@@ -12,6 +12,7 @@
     @media screen and (max-width:766px) {
         width: 100%;
         text-align: center;
+        right: 0;
         margin: 0 auto;
         background: #dbdbdb;
         bottom: 0;
@@ -38,4 +39,28 @@
             object-fit: contain;
         }
     }
+}
+
+.wa-button {
+    width: 42px;
+    height: 42px;
+    background: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    z-index: 999;
+    @media screen and (max-width:766px) {
+        bottom: 64px;
+    }
+    i {
+        color: #fff;
+        font-size: 24px;
+    }
+}
+
+footer #scroll-top {
+    display: none !important;
 }
